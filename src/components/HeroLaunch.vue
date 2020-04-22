@@ -12,8 +12,8 @@
       <p class="text-xl max-w-xl mb-10 text-center">
         With <span class="openfolf--text-green font-bold text-2xl">openFOLF</span> our users can
         keep track their matches in real time. All users that are together in a single match recieve
-        real time updates to any changes on the comunal scorecard. The application is made for
-        mobile devices.
+        real time updates to any changes on the comunal scorecard. <br />
+        <em>The application is designed for mobile devices.</em>
       </p>
       <p class="text-xl max-w-xl mb-10 font-bold text-center">
         It's completly Free!!
