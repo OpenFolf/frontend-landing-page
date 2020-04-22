@@ -1,17 +1,28 @@
 <template>
-  <v-app>
-    <v-app-bar app color="primary" dark>
-      <v-btn>button placeholder</v-btn>
-    </v-app-bar>
-
-    <v-content>
-      <h1>Placeholder openFOLF</h1>
-    </v-content>
-  </v-app>
+  <div>
+    <hero-launch />
+    <hero-source />
+    <hero-docs />
+  </div>
 </template>
 
 <script>
+  import HeroLaunch from "@/components/HeroLaunch.vue";
+  import HeroSource from "@/components/HeroSource.vue";
+  import HeroDocs from "@/components/HeroDocs.vue";
   export default {
     name: "App",
+    components: {
+      HeroLaunch,
+      HeroSource,
+      HeroDocs,
+    },
+    data() {
+      return {
+        dummy: "value",
+      };
+    },
   };
 </script>
+
+<style></style>
