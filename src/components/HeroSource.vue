@@ -2,7 +2,7 @@
   <div
     class="of--hero-background xl:h-screen flex flex-col-reverse xl:flex-row justify-center items-center"
   >
-    <div class="w-full xl:w-1/2 flex flex-col justify-center items-center mb-20">
+    <div class="w-full flex flex-col justify-center items-center mb-20">
       <h1 class="text-white text-center font-bold text-3xl xl:text-5xl mb-6">
         Open... открытый...<br />
         Opið...
@@ -18,7 +18,7 @@
         </span>
       </a>
     </div>
-    <div class="w-full xl:w-1/2 mt-16 mb-8 flex flex-col justify-center items-center">
+    <div class="w-full mt-16 mb-8 flex flex-col justify-center items-center">
       <img class="of--logo-hero" src="/images/github.svg" alt="github logo" />
       <span class="text-4xl xl:text-6xl text-white font-black mt-6">GitHub</span>
     </div>
@@ -28,11 +28,6 @@
 <script>
   export default {
     name: "hero-source",
-    data() {
-      return {
-        dummy: "value",
-      };
-    },
   };
 </script>
 
@@ -43,7 +38,6 @@
   img.of--logo-hero {
     max-height: 20vh;
   }
-
   @media (min-width: 1280px) {
     img.of--logo-hero {
       max-height: 60vh;

@@ -1,10 +1,10 @@
 <template>
   <div class="of--hero-background xl:h-screen flex flex-col xl:flex-row">
-    <div class="mt-16 mb-10 w-full xl:w-1/2 flex flex-col justify-center items-center">
+    <div class="mt-16 mb-10 w-full flex flex-col justify-center items-center">
       <img class="of--logo-hero" src="/images/openfolfgreen.svg" alt="openfolf logo" />
       <span class="text-3xl xl:text-6xl mt-6 font-bold">openFOLF</span>
     </div>
-    <div class="mb-20 w-full xl:w-1/2 flex flex-col justify-center items-center xl:mr-10">
+    <div class="mb-20 w-full flex flex-col justify-center items-center xl:mr-10">
       <h1 class="of--text-green text-center font-bold text-2xl xl:text-5xl mb-6">
         Real-time Disc Golf Tracking
       </h1>
@@ -30,11 +30,6 @@
 <script>
   export default {
     name: "hero-launch",
-    data() {
-      return {
-        dummy: "value",
-      };
-    },
   };
 </script>
 
