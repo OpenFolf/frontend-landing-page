@@ -1,26 +1,25 @@
 <template>
-  <div class="of--hero-1 h-screen flex flex-row">
-    <div class="of--hero-left pl-20 w-6/12 flex flex-col justify-center items-center">
-      <div class="of--three-wrapper flex flex-row">
-        <div class="w-1/3 h-full flex flex-col justify-end">
-          <img class="of--logo-three pb-5" src="/images/markdown.svg" alt="" />
-        </div>
-        <div class="w-1/3 h-full flex flex-col justify-start">
+  <div class="of--hero-background xl:h-screen flex flex-col xl:flex-row">
+    <div class="my-20 w-full flex flex-col justify-center items-center">
+      <div class="of--three-wrapper flex flex-col">
+        <div class="flex flex-col mb-6 justify-center items-center">
           <img class="of--logo-three" src="/images/word.svg" alt="" />
         </div>
-        <div class="w-1/3 h-full flex flex-col justify-end">
+        <div class="flex flex-row justify-center items-center">
+          <img class="of--logo-three mr-6" src="/images/markdown.svg" alt="" />
           <img class="of--logo-three" src="/images/vuepress.png" alt="" />
         </div>
       </div>
     </div>
-    <div class="of--hero-right pr-20 w-6/12 flex flex-col justify-center items-center">
-      <h1 class="of--text-green text-center font-bold text-5xl mb-6">
+    <div class="w-full flex flex-col justify-center items-center mb-20">
+      <h1 class="of--text-green text-center font-bold text-3xl xl:text-5xl mb-6">
         BSc Computer Science <br />
         Final project
       </h1>
-      <p class="text-xl max-w-xl mb-16 text-center">
-        Along with the web application we are required to hand in a report. We set up a dedicated
-        website for the report, any accompanying data and other relevant documentation.
+      <p class="xl:text-xl max-w-xl mb-16 mx-6 text-center">
+        Along with the web application we made a report documenting the design and production of the
+        application. We set up a dedicated website for the report, any accompanying data and other
+        relevant documentation.
       </p>
       <a href="#" class="button" role="button" target="_blank">
         <span class="font-bold text-xl">
@@ -34,24 +33,23 @@
 <script>
   export default {
     name: "hero-docs",
-    data() {
-      return {
-        dummy: "value",
-      };
-    },
   };
 </script>
 
 <style scoped>
-  div.of--hero-1 {
+  div.of--hero-background {
     background-image: url("/images/hero-docs.png");
   }
   div.of--three-wrapper {
-    height: 35vh;
-    /* max-height: 60vh; */
+    height: 30vh;
   }
   img.of--logo-three {
-    max-height: 30vh;
+    max-width: 15vh;
+  }
+  @media (min-width: 1280px) {
+    img.of--logo-three {
+      max-width: 20vh;
+    }
   }
   .of--text-green {
     color: #005737;

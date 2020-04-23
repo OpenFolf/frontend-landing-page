@@ -1,20 +1,19 @@
 <template>
-  <div class="of--hero h-screen flex flex-row">
-    <div class="of--hero-left pl-20 w-6/12 flex flex-col justify-center items-center">
+  <div class="of--hero-background xl:h-screen flex flex-col xl:flex-row">
+    <div class="mt-16 mb-10 w-full xl:w-1/2 flex flex-col justify-center items-center">
       <img class="of--logo-hero" src="/images/openfolfgreen.svg" alt="openfolf logo" />
-      <span class="text-6xl font-bold">openFOLF</span>
+      <span class="text-3xl xl:text-6xl mt-6 font-bold">openFOLF</span>
     </div>
-    <div class="of--hero-right pr-20 w-6/12 flex flex-col justify-center items-center">
-      <h1 class="of--text-green text-center font-bold text-5xl mb-6">
-        Real-time<br />
-        Disc Golf Tracking
+    <div class="mb-20 w-full xl:w-1/2 flex flex-col justify-center items-center xl:mr-10">
+      <h1 class="of--text-green text-center font-bold text-2xl xl:text-5xl mb-6">
+        Real-time Disc Golf Tracking
       </h1>
-      <p class="text-xl max-w-xl mb-10 text-center">
-        With <span class="of--text-green font-bold text-2xl">openFOLF</span> you can easily keep
+      <p class="max-w-xl mb-10 mx-6 xl:text-xl text-center">
+        With <span class="of--text-green font-bold text-xl">openFOLF</span> you can easily keep
         track of your game as you play it with a real-time comunal scorecard. The comunal scorecard
         is shared between all players in your party, giving everyone a chance to log their own score
         and keep track of the other players with real-time updates. <br /><br />
-        <em>The application is designed for mobile devices.</em>
+        <em>Designed for mobile devices as a Progressive Web App.</em>
       </p>
       <p class="text-xl max-w-xl mb-10 font-bold text-center">
         It's completly Free!!
@@ -40,11 +39,17 @@
 </script>
 
 <style scoped>
-  div.of--hero {
+  div.of--hero-background {
     background-image: url("/images/hero-launch.png");
   }
   img.of--logo-hero {
-    max-height: 60vh;
+    max-height: 20vh;
+  }
+
+  @media (min-width: 1280px) {
+    img.of--logo-hero {
+      max-height: 60vh;
+    }
   }
   .of--text-green {
     color: #005737;
