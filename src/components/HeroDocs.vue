@@ -1,26 +1,32 @@
 <template>
-  <div class="openfolf--hero-1 h-screen flex flex-row">
-    <div class="openfolf--hero-left pl-20 w-6/12 flex flex-col justify-center items-center">
-      <img class="openfolf--logo-hero" src="/images/docs2.svg" alt="openfolf logo" />
-      <span class="text-6xl font-bold">openFOLF</span>
+  <div class="of--hero-1 h-screen flex flex-row">
+    <div class="of--hero-left pl-20 w-6/12 flex flex-col justify-center items-center">
+      <div class="of--three-wrapper flex flex-row">
+        <div class="w-1/3 h-full flex flex-col justify-end">
+          <img class="of--logo-three pb-5" src="/images/markdown.svg" alt="" />
+        </div>
+        <div class="w-1/3 h-full flex flex-col justify-start">
+          <img class="of--logo-three" src="/images/word.svg" alt="" />
+        </div>
+        <div class="w-1/3 h-full flex flex-col justify-end">
+          <img class="of--logo-three" src="/images/vuepress.png" alt="" />
+        </div>
+      </div>
     </div>
-    <div class="openfolf--hero-right pr-20 w-6/12 flex flex-col justify-center items-center">
-      <h1 class="openfolf--text-green text-center font-bold text-5xl mb-6">
-        Real-time<br />
-        Disc Golf Tracking
+    <div class="of--hero-right pr-20 w-6/12 flex flex-col justify-center items-center">
+      <h1 class="of--text-green text-center font-bold text-5xl mb-6">
+        BSc Computer Science <br />
+        Final project
       </h1>
-      <p class="text-xl max-w-xl mb-10 text-center">
-        With <span class="openfolf--text-green font-bold text-2xl">openFOLF</span> our users can
-        keep track their matches in real time. All users that are together in a single match recieve
-        real time updates to any changes on the comunal scorecard. The application is made for
-        mobile devices.
+      <p class="text-xl max-w-xl mb-16 text-center">
+        Along with the web application we are required to hand in a report. We set up a dedicated
+        website for the report, any accompanying data and other relevant documentation.
       </p>
-      <p class="text-xl max-w-xl mb-10 text-center">
-        It's completly Free!!
-      </p>
-      <button class="text-xl text-white font-bold py-4 px-6 rounded">
-        Launch Application
-      </button>
+      <a href="#" class="button" role="button" target="_blank">
+        <span class="font-bold text-xl">
+          Go To Documentation
+        </span>
+      </a>
     </div>
   </div>
 </template>
@@ -37,22 +43,29 @@
 </script>
 
 <style scoped>
-  div.openfolf--hero-1 {
-    background-image: url("/images/hero6.png");
+  div.of--hero-1 {
+    background-image: url("/images/hero-docs.png");
   }
-  img.openfolf--logo-hero {
-    max-height: 60vh;
+  div.of--three-wrapper {
+    height: 35vh;
+    /* max-height: 60vh; */
   }
-  button.openfolf--btn {
-    background-color: #005737;
+  img.of--logo-three {
+    max-height: 30vh;
   }
-  .openfolf--text-green {
+  .of--text-green {
     color: #005737;
   }
-  /* div.openfolf--hero-left {
-    background-image: url("/images/openfolfgreen.svg");
-  } */
-  /* div.openfolf--hero-right {
-    background-color: purple;
-  } */
+  .button {
+    background-color: #005737;
+    border-radius: 5px;
+    color: #fff;
+    padding: 1rem;
+    text-decoration: none;
+  }
+  .button:focus,
+  .button:hover {
+    background-color: darkgrey;
+    color: #005737;
+  }
 </style>
