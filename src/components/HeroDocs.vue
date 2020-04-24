@@ -17,11 +17,11 @@
         Final project
       </h1>
       <p class="xl:text-xl max-w-xl mb-16 mx-6 text-center">
-        Along with the web application we made a report documenting the design and production of the
-        application. We set up a dedicated website for the report, any accompanying data and other
-        relevant documentation.
+        Along with the web application, we made a report documenting the design and production of
+        the application. We set up a dedicated website for the report with interactive examples in
+        an attempt to simplify the consumption of the report.
       </p>
-      <a href="#" class="button" role="button" target="_blank">
+      <a href="https://docs.openfolf.net/" class="button" role="button" target="_blank">
         <span class="font-bold text-xl">
           Go To Documentation
         </span>
