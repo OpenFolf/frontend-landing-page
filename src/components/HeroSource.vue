@@ -9,7 +9,7 @@
       </h1>
       <p class="xl:text-xl text-white max-w-xl mb-10 mx-6 text-center">
         On GitHub, there we have all the source code for all our repositories. Check out our code,
-        review it, fork it, clone it or send us a pull request.
+        review it, fork it, clone it or send us a pull request. Test
         <span class="text-xl font-bold">openFOLF</span> is free and open to all.
       </p>
       <a href="https://github.com/openfolf" class="button" role="button" target="_blank">
