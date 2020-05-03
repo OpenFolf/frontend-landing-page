@@ -18,8 +18,10 @@
       </h1>
       <p class="xl:text-xl max-w-xl mb-16 mx-6 text-center">
         Along with the web application, we made a report documenting the design and production of
-        the application. We set up a dedicated website for the report with interactive examples in
-        an attempt to simplify the consumption of the report.
+        the application. We set up a dedicated website for the report made with Vuepress, the
+        official Vuejs documentation tool. This makes the report a PWA and reading it on mobile
+        devices really nice. Furthermore the option to install the docs locally for off-line
+        consumption is possible on supported browsers.
       </p>
       <a href="https://docs.openfolf.net/" class="button" role="button" target="_blank">
         <span class="font-bold text-xl">
