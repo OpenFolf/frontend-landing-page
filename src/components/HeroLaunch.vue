@@ -10,9 +10,9 @@
       </h1>
       <p class="max-w-xl mb-10 mx-6 xl:text-xl text-center">
         With <span class="of--text-green font-bold text-xl">openFOLF</span> you can easily keep
-        track of your game as you play it with a real-time comunal scorecard. The comunal scorecard
-        is shared between all players in your party, giving everyone a chance to log their own score
-        and keep track of the other players with real-time updates. <br /><br />
+        track of your game as you play it with a real-time communal scorecard. The communal
+        scorecard is shared between all players in your party, giving everyone a chance to log their
+        own score and keep track of the other players with real-time updates. <br /><br />
         <em>Designed for mobile devices as a Progressive Web App.</em>
       </p>
       <p class="text-xl max-w-xl mb-10 font-bold text-center">
