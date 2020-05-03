@@ -31,7 +31,7 @@
         },
         { property: "og:title", content: "openFOLF | Real-Time Disc Golf Tracking" },
         { property: "og:site_name", content: "openFOLF" },
-        { property: "og:type", content: "PWA" },
+        { property: "og:type", content: "Progressive Web App" },
         { property: "og:url", content: "https://www.openfolf.net" },
         { property: "og:image", content: "https://www.openfolf.net/images/openfolfgreen.svg" },
         {
